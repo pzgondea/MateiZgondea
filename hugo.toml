@@ -1,0 +1,79 @@
+copyright = "© PZ"
+defaultContentLanguage = "en"
+disableKinds = ["taxonomy"]
+timeZone = "Europe/Berlin"
+timeout = "120s"
+baseURL = "https://portfolio.alexandra.zgondea.com/"
+title = "Matei Cel Rau Pana La Os"
+languageCode = "en-us"
+theme = "hugo-theme-gallery"
+[pagination]
+  pagerSize = 30
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[params]
+  defaultTheme = "light"
+  description = "Portfolio, events, expositions"
+  customHead = ["head-extra.html"]
+    [params.author]
+    email = "alexandra@zgondea.com"
+    name = "Paul"
+    [params.socialIcons]
+    github = "https://github.com/pzgondea/MedicinaWebsite"
+    email = "mailto:alexandra@zgondea.com"
+    website = "https://alexandra.zgondea.com"
+    instagram = "https://www.instagram.com/azillustrations/"
+    facebook = "https://www.facebook.com/graphicland.AZ/"
+    #whatsapp = "1234567890"
+  [params.gallery]
+    #boxSpacing = 10
+    #targetRaowHeight = 288
+    #targetRowHeightTolerance = 0.25
+   
+
+[imaging]
+  quality = 75
+  resampleFilter = "CatmullRom"
+  [imaging.exif]
+    disableDate = false
+    disableLatLong = true
+    includeFields = "ImageDescription|Orientation"
+
+[menu]
+  [[menu.footer]]
+    name = "GitHub"
+    url = "https://github.com/pzgondea/"
+    weight = 3    
+
+
+[services]
+  [services.rss]
+    limit = 100
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+
+[related]
+  includeNewer = true
+  threshold = 10
+  toLower = false
+  [[related.indices]]
+    applyFilter = false
+    cardinalityThreshold = 0
+    name = 'categories'
+    pattern = ''
+    toLower = false
+    type = 'basic'
+    weight = 10
+  [[related.indices]]
+    applyFilter = false
+    cardinalityThreshold = 0
+    name = 'keywords'
+    pattern = ''
+    toLower = false
+    type = 'basic'
+    weight = 50
