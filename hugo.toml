@@ -3,8 +3,8 @@ defaultContentLanguage = "en"
 disableKinds = ["taxonomy"]
 timeZone = "Europe/Berlin"
 timeout = "120s"
-baseURL = "https://portfolio.alexandra.zgondea.com/"
-title = "Matei Cel Rau Pana La Os"
+baseURL = "https://matei.zgondea.com/"
+title = "Mateu Cel Rau Pana La Os"
 languageCode = "en-us"
 theme = "hugo-theme-gallery"
 [pagination]
@@ -22,11 +22,11 @@ theme = "hugo-theme-gallery"
     email = "alexandra@zgondea.com"
     name = "Paul"
     [params.socialIcons]
-    github = "https://github.com/pzgondea/MedicinaWebsite"
-    email = "mailto:alexandra@zgondea.com"
-    website = "https://alexandra.zgondea.com"
-    instagram = "https://www.instagram.com/azillustrations/"
-    facebook = "https://www.facebook.com/graphicland.AZ/"
+    github = "https://github.com/pzgondea/mateizgondea"
+    email = "mailto:matei.zgondea@gmail.com"
+    website = "https://matei.zgondea.com"
+    #instagram = "https://www.instagram.com/azillustrations/"
+    #facebook = "https://www.facebook.com/graphicland.AZ/"
     #whatsapp = "1234567890"
   [params.gallery]
     #boxSpacing = 10
@@ -76,4 +76,5 @@ theme = "hugo-theme-gallery"
     pattern = ''
     toLower = false
     type = 'basic'
+
     weight = 50
