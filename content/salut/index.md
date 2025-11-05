@@ -1,9 +1,9 @@
 ---
-title: Curriculum Vitae
+title: SALUT
 date: 2025-08-18
 summary: 
-tags: [salut]
-categories: [salut]
+tags: [SALUT]
+categories: [SALUT]
 ---
 
 ### Salut - Acesta este pagina lui Mateu Rau Pana La Os
