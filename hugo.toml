@@ -1,4 +1,4 @@
-copyright = "© PZ"
+copyright = "© MZ"
 defaultContentLanguage = "en"
 disableKinds = ["taxonomy"]
 timeZone = "Europe/Berlin"
@@ -19,8 +19,8 @@ theme = "hugo-theme-gallery"
   description = "Portfolio, events, expositions"
   customHead = ["head-extra.html"]
     [params.author]
-    email = "alexandra@zgondea.com"
-    name = "Paul"
+    email = "matei@zgondea.com"
+    name = "MZ"
     [params.socialIcons]
     github = "https://github.com/pzgondea/mateizgondea"
     email = "mailto:matei.zgondea@gmail.com"
@@ -45,7 +45,7 @@ theme = "hugo-theme-gallery"
 [menu]
   [[menu.footer]]
     name = "GitHub"
-    url = "https://github.com/pzgondea/"
+    url = "https://github.com/pzgondea/mateizgondea/"
     weight = 3    
 
 
@@ -78,3 +78,4 @@ theme = "hugo-theme-gallery"
     type = 'basic'
 
     weight = 50
+
